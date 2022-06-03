@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * 
+ *
  *  * main - my entry point
  *
  *   * Description: prints "Programming is like building a multilingual puzzle"
