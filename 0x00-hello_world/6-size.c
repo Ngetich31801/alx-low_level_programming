@@ -5,11 +5,8 @@
  * Description: prints all sizes in c
  * Return: 0 
 */
-
 int main(void)
-
 {
-
 	char a;
 
 	int b;
