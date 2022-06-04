@@ -1,21 +1,37 @@
 #include <stdio.h>
-
 /**
  * main - main function
  *
- * Return: 0
+ * Return: 0 (succes)
  */
 int main(void)
-{
-	int i = 0;
 
-	for (i = 0; i < 10; i++)
+{
+
+	int k;
+
+
+
+	for (k = 48; k <= 57; k++)
+
 	{
-		putchar(i);
-		putchar(',');
+
+		putchar(k);
+
+		if (k < 57)
+
+		{
+
+			putchar(',');
+
+			putchar(' ');
+
+		}
 
 	}
 
 	putchar('\n');
+
 	return (0);
+
 }
