@@ -1,47 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
  *
- * Return: Always 0 (Success)
+ * main - main function
+ * Description:printing alphabets in lowercase
+ * Return: Return
  */
 
 int main(void)
 
 {
 
-	<<<<<<< HEAD
+		int ch;
 
-		int num;
 
-	num = 97;
 
-	while (num <= 122)
+			for (ch = 'a'; ch <= 'z'; ch++)
 
-		putchar(num);
+						putchar(ch);
 
-	num++;
+					putchar('\n');
 
-	=======
-
-		int p;
-
-	p = 97;
-
-	while (p <= 122)
-
-	{
-
-		putchar(p);
-
-		p++;
-
-	}
-
-	>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-
-		putchar('\n');
-
-	return (0);
+						return (0);
 
 }
