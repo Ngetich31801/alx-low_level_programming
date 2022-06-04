@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - main function
@@ -6,7 +6,6 @@ include <stdio.h>
  * Return: 0
  */
 int main(void)
-
 {
 	int ch;
 
@@ -14,9 +13,7 @@ int main(void)
 	{
 		if (ch != 'q' && ch != 'e')
 			putchar(ch);
-
 	}
 	putchar('\n');
 	return (0);
-
 }
