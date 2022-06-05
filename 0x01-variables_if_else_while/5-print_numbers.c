@@ -4,7 +4,7 @@
  * Description:printing digit number
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int x;
 
