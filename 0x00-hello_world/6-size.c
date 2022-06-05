@@ -8,6 +8,7 @@
 int main(void)
 {
 	char a;
+
 	int b;
 	int long c;
 	int long long d;
