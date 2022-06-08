@@ -3,8 +3,9 @@
  * main - my entry
  * description: program that prints _putchar
  * Return : 0
-*/
+ */
 int main(void)
+
 {
 	char x[] = "_putchar";
 	int i;
@@ -16,6 +17,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
-
-
