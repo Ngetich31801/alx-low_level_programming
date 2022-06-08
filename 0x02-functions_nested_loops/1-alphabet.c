@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the english alphabet from a-z.
+ * print_alphabet - check the code
  *
- * Return: 0
+ * Return: Always 0.
  *
- */
+*/
 void print_alphabet(void)
 {
-	char abc = 'a';
-	do {
-		_putchar(abc);
-		abc++;
-	} while (abc <= 'z');
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
 	_putchar('\n');
-	return (0);
 }
