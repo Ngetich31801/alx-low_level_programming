@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * main - my entry
- * description: program that prints _putchar
- * Return : 0
+ * main - Entry point
+ *
+ * Description: prints _putchar
+ *
+ * Return: return 0 always success
 */
 int main(void)
 
