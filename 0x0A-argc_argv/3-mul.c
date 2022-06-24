@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	 else if (argc == 3)
 	 {
 		 for (x = 0 ; x < argc ; x++)
-		 {i
+		 {
 			 if (x == 1)
 			 {
 				 y = atoi(argv[x]);
