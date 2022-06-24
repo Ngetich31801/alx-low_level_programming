@@ -19,22 +19,21 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (0);
 	}
-	else if (argc == 3)
-	{
-		for (i = 0 ; i < argc ; i++)
-		{
-			if (i == 1)
-			{
-				j = atoi(argv[i]);
-			}
-			else if (i == 2)
-			{
-				k = atoi(argv[i]);
-			}
-		}
-		mult = j * k;
-		printf("%d\n", mult);
-	}
-	return (0);
+	 else if (argc == 3)
+	 {
+		 for (x = 0 ; x < argc ; x++)
+		 {i
+			 if (x == 1)
+			 {
+				 y = atoi(argv[x]);
+			 }
+			 else if (x == 2)
+			 {
+				 z = atoi(argv[x]);
+			 }
+		 }
+		 mult = y * z;
+		 printf("%d\n", mult);
+	 }
+	 return (0);
 }
-		 
