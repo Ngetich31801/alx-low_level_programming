@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - return lenigth of a string lane
+ * _strlen - return length of a string lane
  * @s: char type
  * Return:  length of string
  */
@@ -55,7 +55,7 @@ char *str_concat(char *s1, char *s2)
 	size1 = _strlen(s1);
 	size2 = _strlen(s2);
 
-	ptr = malloc(((size1 + size2) + 1) * sizeof(char));
+	p = malloc(((size1 + size2) + 1) * sizeof(char));
 	if (p == NULL)
 	{
 		return (NULL);
