@@ -3,16 +3,17 @@
 #include <stdio.h>
 
 /**
- * _strlen - return length of a string
+ * _strlen - return lenigth of a string lane
  * @s: char type
  * Return:  length of string
  */
 int _strlen(char *s)
 {
-	int a;
+	int x;
 
-	for (a = 0; s[a] != '\0'; a++);
-	return (a);
+	for (x = 0; s[x] != '\0'; x++)
+		;
+	return (x);
 }
 /**
  * _strncat - function to concatnate strings with n bytes
@@ -23,12 +24,12 @@ int _strlen(char *s)
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len, a;
+	int dest_len, x;
 
 
 	dest_len = _strlen(dest);
-	for (a = 0; a < n && src[a] != '\0'; a++)
-		dest[dest_len + a] = src[a];
+	for (x = 0; x < n && src[x] != '\0'; x++)
+		dest[dest_len + x] = src[x];
 	return (dest);
 }
 
@@ -40,7 +41,7 @@ char *_strncat(char *dest, char *src, int n)
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *ptr;
+	char *p;
 	int size1, size2;
 
 	if (s1 == NULL)
@@ -55,12 +56,12 @@ char *str_concat(char *s1, char *s2)
 	size2 = _strlen(s2);
 
 	ptr = malloc(((size1 + size2) + 1) * sizeof(char));
-	if (ptr == NULL)
+	if (p == NULL)
 	{
 		return (NULL);
 	}
-	_strncat(ptr, s1, size1);
-	_strncat(ptr, s2, size2);
-	ptr += '\0';
-	return (ptr);
+	_strncat(p, s1, size1);
+	_strncat(p, s2, size2);
+	p += '\0';
+	return (p);
 }
