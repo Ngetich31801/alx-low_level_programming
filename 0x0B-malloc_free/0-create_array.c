@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an arry of size with char c
- * @size: unsigned int t
+ * create_array - create an array of size with char c
+ * @size: unsigned int x
  * @c: char type
  * Return: Return pointer to array created
  */
