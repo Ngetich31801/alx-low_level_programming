@@ -1,15 +1,29 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
  * struct list_s - singly linked list
+=======
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
+
+/**
+ ** struct list_s - singly linked list
+>>>>>>> c00d23f18eea215bdcd6abeedec6688ec1e731a4
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
  * Description: singly linked list node structure
  */
+<<<<<<< HEAD
+=======
+
+>>>>>>> c00d23f18eea215bdcd6abeedec6688ec1e731a4
 typedef struct list_s
 {
 	char *str;
