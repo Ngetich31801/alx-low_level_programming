@@ -1,4 +1,6 @@
-#include "main.h"
+#include "lists.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * list_len - print len.
