@@ -2,7 +2,7 @@
 
 /**
  * _stoi - converts chars to ints
- * @c: char to convert 
+ * @c: char to convert
  * Return: converted int
  */
 unsigned int _stoi(char c)
