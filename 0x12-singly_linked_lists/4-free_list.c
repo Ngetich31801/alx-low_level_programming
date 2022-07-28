@@ -6,6 +6,16 @@
  * @head: The pointer to the first linked list node
  * Return: nothing.
  */
-void free        
-:wq
+void free_list(list_t *head)
+{
+	list_t *current, *next;
 
+	current = head;
+	while (current != NULL)
+	{
+		next = current->next;
+		free(current->str);
+		free(current);
+		current = next;
+	}
+}
