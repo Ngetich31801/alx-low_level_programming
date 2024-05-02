@@ -9,31 +9,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int x;
-	int y;
-	int z;
-	int mult = 0;
+    int y, z, mult;
 
-	if (argc != 3)
-	{
-		printf("Error\n");
-		return (0);
-	}
-	 else if (argc == 3)
-	 {
-		 for (x = 0 ; x < argc ; x++)
-		 {
-			 if (x == 1)
-			 {
-				 y = atoi(argv[x]);
-			 }
-			 else if (x == 2)
-			 {
-				 z = atoi(argv[x]);
-			 }
-		 }
-		 mult = y * z;
-		 printf("%d\n", mult);
-	 }
-	 return (0);
+    if (argc != 3)
+    {
+        printf("Usage: %s <num1> <num2>\n", argv[0]);
+        return 1;  // Indicates error
+    }
+
+    y = atoi(argv[1]);
+    z = atoi(argv[2]);
+
+    mult = y * z;
+    printf("%d\n", mult);
+
+    return 0;
 }
